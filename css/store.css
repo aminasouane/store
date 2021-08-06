@@ -148,7 +148,7 @@ body {
             align-items: center; 
         }
         .main .container  .social {
-            left:40px;
+            left:30px;
             top:250px;
         }
      }
@@ -180,17 +180,16 @@ body {
        }
        .product .container .trend {
          flex-basis: 25%;
-         margin-bottom: 100px;
+         margin-bottom: 40px;
          display: flex;
          align-items: center;
          flex-direction: column;
-         padding: 5px;
+         padding:20px;
        }
        .product .container .trend img {
          max-width: 100%;
          height: 150px;
         margin-bottom: 15px;
-       
        }
        .product .container .trend p:first-of-type {
            line-height: 0;
@@ -215,15 +214,15 @@ body {
        }
        @media(max-width: 1024px) {
         .product .container .trend {
-            flex-basis: 33%;
-        }
-       }
-       @media(max-width: 768px) {
-        .product .container .trend {
             flex-basis: 45%;
         }
         .product .container .trends {
             justify-content:space-between;
+        }
+       }
+       @media(max-width: 539px) {
+        .product .container .trend {
+            flex-basis: 90%;
         }
        }
        .product .container .trend:hover a {
